@@ -1,0 +1,39 @@
+/*
+ * @FilePath: \vue-typescript-admin-template\src\styles\_svgicon.scss
+ * @Author: maskMan
+ * @Date: 2023-04-09 20:16:27
+ * @LastEditTime: 2023-04-17 16:18:12
+ * @Reference: 引用方 src\styles\index.scss
+ * @Descripttion: 说明 svg图标基本样式 
+ */
+
+.svg-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  color: inherit;
+  fill: none;
+  stroke: currentColor;
+  vertical-align: -0.15em;
+}
+
+.svg-fill {
+  fill: currentColor;
+  stroke: none;
+}
+
+.svg-up {
+  transform: rotate(0deg);
+}
+
+.svg-right {
+  transform: rotate(90deg);
+}
+
+.svg-down {
+  transform: rotate(180deg);
+}
+
+.svg-left {
+  transform: rotate(-90deg);
+}

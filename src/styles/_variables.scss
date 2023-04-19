@@ -1,0 +1,41 @@
+/*
+ * @FilePath: \vue-typescript-admin-template\src\styles\_variables.scss
+ * @Author: maskMan
+ * @Date: 2023-04-09 20:16:27
+ * @LastEditTime: 2023-04-17 16:14:55
+ * @Reference: 引用方 
+ * @Descripttion: 说明 全局样式
+ */
+
+// Base color
+$blue: #304156;
+$light-blue: #3a71a8;
+$red: #c03639;
+$pink: #e65d6e;
+$green: #30b08f;
+$tiffany: #4ab7bd;
+$yellow: #fec171;
+$panGreen: #30b08f;
+
+// Sidebar
+$sideBarWidth: 210px;
+$subMenuBg: #1f2d3d;
+$subMenuHover: #001528;
+$subMenuActiveText: #f4f4f5;
+$menuBg: #304156;
+$menuText: #bfcbd9; //侧边栏菜单颜色
+$menuActiveText: #409eff; // Also see settings.sidebarTextTheme
+
+// Login page
+$lightGray: #eee;
+$darkGray: #889aa4;
+$loginBg: #304156;
+$loginCursorColor: #fff;
+
+// The :export directive is the magic sauce for webpack
+// https://mattferderer.com/use-sass-variables-in-typescript-and-javascript
+:export {
+  menuBg: $menuBg;
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+}

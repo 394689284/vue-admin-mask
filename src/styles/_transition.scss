@@ -1,0 +1,54 @@
+/*
+ * @FilePath: \vue-typescript-admin-template\src\styles\_transition.scss
+ * @Author: maskMan
+ * @Date: 2023-04-09 20:16:27
+ * @LastEditTime: 2023-04-17 16:13:43
+ * @Reference: 引用方 
+ * @Descripttion: 全局动画过度设置样式 
+ */
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.28s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+// fade-transform
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+  transition: all 0.5s;
+}
+
+.fade-transform-enter {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.fade-transform-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+// breadcrumb动画
+.breadcrumb-enter-active,
+.breadcrumb-leave-active {
+  transition: all 0.5s;
+}
+
+.breadcrumb-enter,
+.breadcrumb-leave-to {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.breadcrumb-move {
+  transition: all 0.5s;
+}
+
+.breadcrumb-leave-active {
+  position: absolute;
+}

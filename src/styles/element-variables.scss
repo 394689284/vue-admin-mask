@@ -1,0 +1,31 @@
+/*
+ * @FilePath: \vue-typescript-admin-template\src\styles\element-variables.scss
+ * @Author: maskMan
+ * @Date: 2023-04-09 20:16:27
+ * @LastEditTime: 2023-04-17 16:15:29
+ * @Reference: 引用方 
+ * @Descripttion: 说明  ElementUI基础样式设置
+ */
+
+// Override Element UI variables
+$--color-primary: #1890ff; //页面主题颜色
+$--color-success: #13ce66;
+$--color-warning: #ffba00;
+$--color-danger: #ff4949;
+$--color-info: #5d5d5d;
+$--button-font-weight: 400;
+$--color-text-regular: #1f2d3d;
+$--border-color-light: #dfe4ed;
+$--border-color-lighter: #e6ebf5;
+$--table-border: 1px solid#dfe6ec;
+
+// Icon font path, required
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+// Apply overrided variables in Element UI
+@import '~element-ui/packages/theme-chalk/src/index';
+
+//导出主题颜色
+:export {
+  theme: $--color-primary;
+}

@@ -1,0 +1,16 @@
+/*
+ * @FilePath: \vue-typescript-admin-template\src\styles\_mixins.scss
+ * @Author: maskMan
+ * @Date: 2023-04-09 20:16:27
+ * @LastEditTime: 2023-04-17 16:18:35
+ * @Reference: 引用方 
+ * @Descripttion: 说明 混入清除浮动  
+ */
+/* Mixins */
+@mixin clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
